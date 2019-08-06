@@ -78,13 +78,13 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'portfoliodb',
-        'USER': 'postgres',
-        'PASSWORD': 'Abadibadan102',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'USER': 'myappuser',
+        'PASSWORD': 'a-nice-random-password',
+        'HOST': 'dabedian-1259.postgres.pythonanywhere-services.com',
+        'PORT': '11259',
     }
 }
-
+#'PORT': '5432',
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
